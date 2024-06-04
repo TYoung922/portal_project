@@ -1,0 +1,104 @@
+/* * {
+  border: solid 5px red;
+} */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #b5fdb5;
+}
+.container {
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.item img {
+  width: 100%;
+}
+.item {
+  width: 30%;
+  padding: 20px 0;
+}
+.cat2 {
+  width: 490px;
+}
+ol {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+ol li {
+  padding: 0 20px;
+}
+.lists {
+  color: #996300;
+  padding: 10px;
+  /* background-color: blue; */
+  /* display: inline; */
+  text-align: center;
+  margin-left: 0;
+}
+h3 {
+  text-align: center;
+  color: #996300;
+}
+ul {
+  display: flex;
+  flex-flow: column-reverse wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
+  margin-right: 30px;
+  /* height: 100px; */
+}
+/* .laser {
+  align-self: flex-end;
+} */
+li {
+  color: #996300;
+}
+footer {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin-bottom: 0;
+}
+h1 {
+  color: white;
+  background-color: blue;
+  text-align: center;
+  padding: 25px;
+  margin-top: 0;
+}
+.see {
+  margin-left: 25px;
+}
+.catimgs {
+  margin-left: 30px;
+}
+h2 {
+  margin-left: 20px;
+}
+.hicat {
+  width: 400px;
+}
+.endimgs {
+  display: flex;
+  justify-content: space-around;
+}
+fieldset {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline;
+}
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}

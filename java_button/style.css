@@ -1,0 +1,25 @@
+body {
+  background-color: brown;
+  font-family: Georgia, serif;
+  font-weight: 500;
+}
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border: solid #1900ff;
+  border-width: 4px;
+}
+.container img {
+  border: solid #1900ff;
+  border-width: 7px;
+}
+
+.large:hover {
+  background-color: red;
+}
+.large:active {
+  background-color: black;
+  color: white;
+}
